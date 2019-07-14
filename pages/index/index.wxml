@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+   <!-- <view class="bg" >
+    <image class="bg-image" mode="scaleToFill"></image> -->
+  
+  <view class="vp">
+   <!-- hover-class="hoverB"  -->
+    <button class="{{b1checked?'b1Toggle':'b1'}}" bindtap="selectb1">Vincent</button>
+    <button class="{{b2checked?'b2Toggle':'b2'}}" bindtap="selectb2">Gothic</button>
+  </view>
+  <!-- <text class='logo'>Stylus</text> -->
+    <button class='goodbutton'  hover-class="hover"  bindtap="getpic">
+    <image class="{{imgok?'imgconverted':'chooseImage'}}" src="{{imgurl}}"></image>
+    上传图片
+    </button>
+      <view class="section">
+      <button type="default" class="{{imgok?'imgconverted':'chooseImage'}}" bindtap='previewImage'>预览</button>
+      <!-- <input placeholder="请输入图片主题" type="text" bindblur='no_focus' bindfocus="focus" style='position: absolute; bottom:140px' type="text" adjust-position='{{false}}' cursor-spacing='5'/> -->
+      <input id="_le_name" style="display: none" type="text" onFocus="focusInputEle(this)" onBlur="blurInputEle(this)" placeholder="请输入图片主题"  class="create-title" bindinput="voteTitle" />
+      </view>
+      <view class='choose'>
+        <button class='confirm' hover-class="hoverConf">生成风格化头像</button>
+      </view>
+  <!-- <view class="usermotto"> -->
+    <!-- <text class="user-motto">{{motto}}</text> -->
+  <!-- </view> -->
+  <!-- </view> -->
+</view>

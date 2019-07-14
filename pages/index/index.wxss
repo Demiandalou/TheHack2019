@@ -1,0 +1,182 @@
+page{
+  height: 100%;
+}
+
+.container{
+  background-image: url('https://i.loli.net/2019/07/14/5d2a03deabed112169.jpg');
+  background-repeat: round;
+  height: 100%;
+  overflow: hidden;
+  /* background-color:azure; */
+}
+/* .logo{
+  font-color: Blue;
+  font-family: 'Lato';
+  font-weight: 900;
+  font-style: italic;
+} */
+
+.b1{
+  align-items: center;
+  background-color:aquamarine;
+  border:none;
+  width: 35%; 
+  border-radius: 20px;
+  height:60px;
+  margin-top: -10px; 
+  margin-left:40px;
+  padding-top:5px;
+  color: gray;
+  font-weight: 500;
+  float:left;
+}
+.b1::after{border:0cm;}
+.b2{
+  align-items: center;
+  color: gray;
+  border-radius: 20px;
+  border:none;
+  background-color:antiquewhite;
+  height:60px;
+  width: 35%; 
+  margin-top: -10px; 
+  margin-right:40px;
+  padding-top:5px;
+  float:right;
+}
+.b2::after{border:0cm;}
+.vp{
+  margin-top:-30px;
+}
+.goodbutton {
+  align-items: center;
+  margin-top: 10px;
+  padding-top:60px;
+  width: 170px;
+  height:600px;
+  background-color: rgb(131, 155, 178);
+  color: white;
+  /* font-style:  */
+  font-weight: 200;
+  font-size: 20px;
+  border-radius: 200rpx;
+  background: bg_red;
+}
+ 
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+view{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+input{
+  border:3px solid rgb(163,230,179);
+  background-color: white;
+  margin-top:30px;
+  padding:10px;
+  width: 180px;
+  /* margin: 10%; */
+  border-radius: 20rpx;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.confirm::after{
+	border:0cm;
+}
+.chooseImage{
+  display:none;
+}
+.imgconverted{
+  display:block;
+}
+.choose{
+  justify-content: center;
+  border-top:1px solid rgb(145,182,224);
+  margin-top: 30px;
+  width:100%;
+  /* height:800px; */
+  /* padding-bottom: -800px; */
+  margin-bottom: -40px;
+  /* background-color: transparent; */
+  /* border-radius: 170rpx; */
+  font-weight: 700;
+  font-size: 50px;
+  border-top-left-radius: 170rpx;
+  border-top-right-radius: 170rpx;
+  background-color:white;
+}
+.confirm{
+  width:110%;
+  color:rgb(131, 155, 178);
+  letter-spacing: 4px;
+  background-color: transparent;
+  border: 0;
+  /* border:1px solid red; */
+  border-top-left-radius: 170rpx;
+  border-top-right-radius: 170rpx;
+  height: 73px;
+}
+.b1Toggle{
+  align-items: center;
+  border:none;
+  width: 35%; 
+  border-radius: 20px;
+  height:60px;
+  margin-top: -10px; 
+  margin-left:40px;
+  padding-top:5px;
+  font-weight: 500;
+  float:left;
+  color:white;
+  background: lightcoral;
+}
+.b1Toggle::after{border:0cm;}
+.b2Toggle{
+  align-items: center;
+  border-radius: 20px;
+  border:none;
+  height:60px;
+  width: 35%; 
+  margin-top: -10px; 
+  margin-right:40px;
+  padding-top:5px;
+  float:right;
+  color:white;
+  background: lightseagreen;
+}
+.b2Toggle::after{border:0cm;}
+
+
+
+
+/* 按下变颜色 */
+.hover {
+  background:  rgb(104, 164, 138);
+}
+/* .hoverB{
+  color:white;
+  background:  rgb(104, 164, 138); 
+} */
+.hoverConf{
+  color:blue;
+  font-family: '微软雅黑';
+  font-weight: 900;
+  /* font-style: italic; */
+
+  /* background:  rgb(104, 164, 138);  */
+}
